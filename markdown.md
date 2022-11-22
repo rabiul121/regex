@@ -27,7 +27,7 @@
 **Output:** Sundarban is the largest *mangrove forest* in the world 
 
 
-### 4. Bold
+### 5. Bold
     To make some words/text bold you can add double star sign (**) or double underscore sign (__) at the start and end of the words/text.
 
     Example: 
@@ -36,7 +36,7 @@
         Sundarban is the largest __mangrove forest__ in the world  
 **Output:** Sundarban is the largest __mangrove forest__ in the world 
 
-### 4. Bold and Italic altogether
+### 6. Bold and Italic altogether
     To make some words/text bold and italic altogether you can add triple star sign (***) or triple underscore sign (___) at the start and end of the words/text.
 
     Example: 
@@ -45,7 +45,7 @@
         Sundarban is the largest ___mangrove forest___ in the world  
 **Output:** Sundarban is the largest ***mangrove forest*** in the world 
 
-### 5. Links (inline)
+### 7. Links (inline)
     To add inline links follow this syntax:
         [This is link text](This is a link URL)
     or, 
@@ -59,11 +59,11 @@
         [Visit my Github profile here](https://github.com/rabiul121 "Github - Md. Rabiul Islam") 
 **Output:** [Visit my Github profile here](https://github.com/rabiul121)
  
-### 5. Images
+### 8. Images
     To add images follow this syntax:
         ![This is image text](this is an image URL)
-        
+
     Example: 
             ![Markdown Logo](images/markdown-image.png)
 **Output:** ![Markdown Logo](images/markdown-image.png)
- 
+
