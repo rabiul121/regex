@@ -18,6 +18,52 @@
 
 
 ### 4. Emphasis
-    To emphasis on some words/text you can italicize the word/text by adding * sign at the start and end of the words/text.
-    Example: Sundarban is the largest *mangrove forest* in the world  
+    To emphasis on some words/text you can italicize the word/text by adding star sign (*) or underscore sign (_) at the start and end of the words/text.
+
+    Example: 
+        Sundarban is the largest *mangrove forest* in the world  
+    or, 
+        Sundarban is the largest _mangrove forest_ in the world  
 **Output:** Sundarban is the largest *mangrove forest* in the world 
+
+
+### 4. Bold
+    To make some words/text bold you can add double star sign (**) or double underscore sign (__) at the start and end of the words/text.
+
+    Example: 
+        Sundarban is the largest **mangrove forest** in the world  
+    or, 
+        Sundarban is the largest __mangrove forest__ in the world  
+**Output:** Sundarban is the largest __mangrove forest__ in the world 
+
+### 4. Bold and Italic altogether
+    To make some words/text bold and italic altogether you can add triple star sign (***) or triple underscore sign (___) at the start and end of the words/text.
+
+    Example: 
+        Sundarban is the largest ***mangrove forest*** in the world  
+    or, 
+        Sundarban is the largest ___mangrove forest___ in the world  
+**Output:** Sundarban is the largest ***mangrove forest*** in the world 
+
+### 5. Links (inline)
+    To add inline links follow this syntax:
+        [This is link text](This is a link URL)
+    or, 
+        [This is link text](This is a link URL “This is a title”)
+    or,
+        [This is link text](/This is a relative URL “This is a title”)
+
+    Example: 
+        [Visit my Github profile here](https://github.com/rabiul121)
+    or, 
+        [Visit my Github profile here](https://github.com/rabiul121 "Github - Md. Rabiul Islam") 
+**Output:** [Visit my Github profile here](https://github.com/rabiul121)
+ 
+### 5. Images
+    To add images follow this syntax:
+        ![This is image text](this is an image URL)
+        
+    Example: 
+            ![Markdown Logo](images/markdown-image.png)
+**Output:** ![Markdown Logo](images/markdown-image.png)
+ 
