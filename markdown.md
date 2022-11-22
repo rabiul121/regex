@@ -67,3 +67,31 @@
             ![Markdown Logo](images/markdown-image.png)
 **Output:** ![Markdown Logo](images/markdown-image.png)
 
+### 9. Unordered Lists 
+    To add list follow the syntax below:
+
+    - Add an asterisks (*), hyphens (-) or plus signs (+) at the start of the list items
+    - Example:
+            - Banana
+            - Apple
+            - Orange etc.
+
+**Output:**  
+- Banana
+- Apple
+- Orange etc.
+
+
+### 10. Ordered Lists 
+    Format your ordered lists by preceding each list item with a number, followed by a full stop and then a space.
+
+    - Example:
+            1. Banana
+            2. Apple
+            3. Orange etc.
+
+**Output:**  
+1. Banana
+2. Apple
+3. Orange etc.
+
