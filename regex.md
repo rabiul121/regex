@@ -22,13 +22,16 @@ Regex is the short form of **Regular Expression**. Using regex we can find some 
 6. [^b] matches other than **b**
 7. [a-z] matches from **a** to **z** any character 
 8. **+** matches at least one or more character
-9. [0-9]{11} - matches 0 to 9 any number with a length of 11
-10. **[a-z]{5,8}** - matches any character between a and z of the length between 5 to 8
-11. **[a-z]{5,}** - matches any character between a and z of the length at least 5 and more
-12. **\d** - matches any digit (alternative to [0-9])
-13. **\w** - matches any word characters (a-z, A-Z, 0-9, ans _'s)
-14. **\s** - matches whitespace characters (tab, spaces, etc.)
-15. **\t** - matches only tab characters
-16. 
-
-
+9. **?** - matches zero-or-one (indicates optional)
+10. **.** - matches any character except new line
+11. **^** - indicate the start of the regex/string
+12. **$** - indicate the end of the regex/string
+13. **'*'** - matches zero-or-more character
+14. [0-9]{11} - matches 0 to 9 any number with a length of 11
+15. **[a-z]{5,8}** - matches any character between a and z of the length between 5 to 8
+16. **[a-z]{5,}** - matches any character between a and z of the length at least 5 and more
+17. **\d** - matches any digit (alternative to [0-9])
+18. **\w** - matches any word characters (a-z, A-Z, 0-9, ans _'s)
+19. **\s** - matches whitespace characters (tab, spaces, etc.)
+20. **\t** - matches only tab characters
+21. **(pet|toy|crazy) rabbit** - matches pet or toy or crazy rabbit (capture group)  
